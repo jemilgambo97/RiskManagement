@@ -1,4 +1,4 @@
-using riskmanagement as rm from '/home/user/projects/risk-management/db/data/schema.cds';
+using riskmanagement as rm from '../db/data/schema.cds';
 
  // Annotate Risk elements
  annotate rm.Risks with {

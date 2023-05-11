@@ -1,7 +1,7 @@
 namespace riskmanagement;
  using { managed } from '@sap/cds/common';
- using from '/home/user/projects/risk-management/app/risk/annotations.cds';
- using from '/home/user/projects/risk-management/app/common.cds';
+ using from '../../app/risk/annotations.cds';
+ using from '../../app/common.cds';
  entity Risks : managed {
  key ID : UUID @(Core.Computed : true);
  title : String(100);
